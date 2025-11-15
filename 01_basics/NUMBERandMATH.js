@@ -19,6 +19,8 @@ const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-IN')); // indian number system mai change ho jayga 
 console.log(hundreds.toLocaleString()); // by default yh USA nuber sysytem ke hisab sse krega
 
+// INT_MIN AND INT_MAX BHI USE KR SKTE HAIN HUMMMMMMM(AS A NUMBER PROPERTY)
+
 //++++++++++++++ MATHS ++++++++++++++
 // console.log(Math); 
 // console.log(Math.abs(-4)); // LIBRARY SE INBUILT ACESS  KR RHE HAIN

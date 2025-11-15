@@ -9,7 +9,7 @@
 
 
 // // There is a better way to declare a string(jiske bohot saare benefits hain)
-// const gamename = new String('rishabhhc')// constructor mai likha hai , 0th index se iski accesing start hoti hai
+// const gamename = new String('rishabhv')// constructor mai likha hai , 0th index se iski accesing start hoti hai
 // // hmara console ke andr key - value ki form mai store hota hai data
 // // iss type se string ko declare krne se hmare or bhi bohot saare prototypes(console mai bdia dikhta hai) ko open krne ka way khul jata hai
 // console.log(gamename[0])
@@ -19,7 +19,7 @@
 // // hum direct without proto , properties use krenge
 // console.log(gamename.length); // yeh last mai (;) dalna must hai
 // console.log(gamename.toUpperCase());  // yeh  original value mai koi change nhi krega(yeh stack ND HEAP VALI PICHLI VIDEO MAI DEKH LIA THA)
-// console.log(gamename.charAt(2));  
+// console.log(gamename.charAt(2));   // char at 2nd index
 // console.log(gamename.indexOf('r')); 
 
 // // sbse asan method strings ke method ke baare mai jan ne ka , google pe jaiye inspect , console, then standard way se declaare string usoing constuctor, thn string ke type dekh lo(asan way to master strings methods)
@@ -39,7 +39,7 @@ console.log(url.replace('%20', '-'))
 // yeh bhi bohot use hota hai
 
 // hum puch bhi skte hain ki ek particular word hai ya nhi
-console.log(url.includes('hitesh')) // true or false return krega
+console.log(url.includes('hitesh')) // true or false return krega(ki present hai ya fir nahi)
 
 // HW. EK BAAR STRING MAI COMFARTABLE HONE KE LIYE CONSOLE VAALE STRINGS KE SAARE PROTOTYPES KO STUDY KRLO
 
