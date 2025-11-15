@@ -1,4 +1,5 @@
-// //  Primitive
+// //  Primitive  (memory ke acess hone ke trike se hum bta skte hain ki dynamically typed hai ya fir statically typed)
+// agr copy bnti hai toh vo primitive hoti hai
 
 // //  7 types : String, Number, Boolean, null, undefined, Symbol(like ek hi symbol ko jb bohot jagah use krna hota hai), BigInt
 
@@ -11,6 +12,7 @@
 
 // const id = Symbol('123')
 // const anotherId = Symbol('123')
+//When you call Symbol('123'), it creates a new symbol value with description '123'. Each call to Symbol(...) produces a distinct symbol, even if the description is identical
 
 // console.log(id === anotherId);
 
@@ -28,17 +30,20 @@
 //     age: 22,
 // }
 
-// const myFunction = function(){
+// const myFunction = function(){ 
 //     console.log("Hello world");
 // }
 
 // console.log(typeof anotherId);
 
+// NON - PRIMITIVE KA DATATYPE FUNCTION HI HOTA HAI , AND FUNCTIONS KA ITSELF OBJECT FUNCTION HOTA HAI
+
+
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 //*********************stack and heap*************************88
 
-// jo hmari primitve datatypes hote hain vo stak mai save hote hain and jp non primitive hote hain vo heap mai
+// jo hmari primitve datatypes hote hain vo stak mai save hote hain and jo non primitive hote hain vo heap mai
 // heap mai by reference save hota hai and stack mai by value(copy bnti hai , original vaale mai no change)]
 
 // let  myyoutubename="hhh12332@xxx"
