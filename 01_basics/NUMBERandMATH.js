@@ -32,13 +32,14 @@ console.log(hundreds.toLocaleString()); // by default yh USA nuber sysytem ke hi
 
 console.log(Math.random()); // YEH hume 0 se 1 ke bich mai hi value return krega
 console.log((Math.random()*10) + 1); // now hume 1 to 10 mai value chahiye thi , issliye aise likha 
-console.log(Math.floor(Math.random()*10) + 1);
+console.log(Math.floor(Math.random()*10) + 1); // decimal ko avoid krne ke liye floor lagaya hai
 
 //now kbhi kbhi min and maax range ke bich mai caiye hota hai
-// uss case mai hum ek formula derive krte hain'
+// uss case mai hum ek formula derive krte hain'((max+min+1)+min)
 
 const min = 10
 const max = 20
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 // now value min 10 se toh bdia ayegi hi and max 20 tk aa skti hai
+  // Math.random hume 0 se 1 k bich mai deta hai 
