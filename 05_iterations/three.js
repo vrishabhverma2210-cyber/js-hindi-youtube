@@ -35,6 +35,7 @@ map.set('IN', "India")
 
 
 // console.log(map); // exact object ki tarah key,value ki form mai hi print hoga
+// MAP bhi hmara iteratable nhi hota(tabhi alg trike se likhte hain)
 
 // if hume akeli key, ya fir akeli value print karani hai toh uske liye syntax mai thoda change ayega
 for (const [key, value] of map) {   //naam dete time square bracket  mai likhna pdega , run krke dekh liyo
@@ -52,3 +53,6 @@ const myObject = {
 //     console.log(key, ':-', value);
      /// error maregi........... 
 // } 
+
+// object is not iterable
+
