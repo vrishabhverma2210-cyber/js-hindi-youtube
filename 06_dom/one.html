@@ -1,0 +1,49 @@
+// yes DOM-DOCUMENT OBJECT MODEL (YEH EK TYPE KA MODEL HAI LIKE HUM BROWSER MAI CONSOLE MAI KAAM KESE KRTE HAIN, KYA KYA FLOW REHTA HAI VO SB dom mai dekhte hain, hum intresting hai ek iska DOM MODEL sir ne banaya hai starting of video mai hi bdia hai vo , revision ke time dekh skte hain, windos, documents , HTML mai jaake  text mode vgera sb smjhaya hai)  and kese kisi  document ko hum manipulate (change) kar skte hain vo bhi smjhaya hai (HUM dom method use krke tree mai khi bhi ,move kar skte hain)
+<!DOCTYPE html> 
+<html lang="en">// doument start yaha se hota hai , pta chlta hai ki document type hmari HTML hain
+    // niche sb objects hai nowww
+<head> // YEh head vgera , body vgera yeh sb hi toh DOM ke objects hai, ya you can say documents ke object , ek baar if hum inn objects ko smjh gaye toh mtlb hum simply manipulate krna bhi sikh jayenge....
+    // and iss DOM ko smjhne ke baad if mai EVENT ko smjh lun toh mera kaam ho jayega , like event hume batata hai ki particular  button click krne ke baad kya hoga , kispe request jaywgi kispe nahi, yeh dono if mai samaj lun toh mera kaam ho jayega
+    <meta charset="UTF-8">
+    
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div >
+        <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+// console mai jaake kyi chizen kri hai humne 
+console.log(windows)
+console.log(windows.document)
+console.log(documents)// yeh document ki sirf kaam kaam vaali cheez dega
+// but somtimes we want the whole document
+ //console.dir(document)// yeh pura document dega
+ // console.log(documents.links)// hume sarre links mil jayenge but,  hume html collections miltii hai, it's not like array hume arrays vgera vali loops nahi lga skte isme , we have to change somthing
+
+ // MAIN DOCUMET KI HEADING KO SELCECT KRKE HUMNE MANIPULATE KRNA BHI SIKHA HAI , SCREENSHOT LIYA HAI STEPS , KA EASYPEASY HAI, CHAHE  TOH VIDEO DEKH LIO
+
+ // KISI PARTICULAR ITEM KA WEB PAGE MAI JAN NA HO KI ISKA CODE KAHA LIKHA HUA HAI VO BHI TRIKA HAI , BOHOT KAAM AYEGAAA.... DHYAN RKHIO
+ // BOHOT SAARE  METHODS,KHUL JAYENGE KI HUME KESE CHAIYE,BY SIMPLY WRITING (DOCUMENT.(DOT))
+
+ // YHI BASIC HAI dom ka kyii log direct react pe chale jate hain unko dikat hoti hai firrr
