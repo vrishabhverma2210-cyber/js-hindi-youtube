@@ -29,7 +29,7 @@ const newNum=myNums.filter((num)=>(num>5)) // direct implict way mai condition l
 
 // console.log(newNums);
 
-
+  // manlo hume data fetch krne ke liye bola hai books ka toh, vo dekhte hain ki kese krenge(bohot use hoga yeh)
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
     { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
@@ -43,8 +43,8 @@ const books = [
   ];
 
   let userBooks = books.filter( (bk) => bk.genre === 'History')
-
+                            // simple cdn lga rkhi hai filter use krke
   userBooks = books.filter( (bk) => { 
     return bk.publish >= 1995 && bk.genre === "History"
-})
+}) // do codnitons lga di
   console.log(userBooks);
